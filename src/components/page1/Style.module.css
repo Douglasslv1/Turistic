@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+
+body{
+    margin: 0;
+}
+
+.logo{
+    width: 270px;
+    margin-left: 2%;
+}
+
+.container{
+    display: flex;
+    background-color: #010D26;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.container nav{
+    width: 60%;
+    display: flex;
+    justify-content:center;
+}
+
+.list{
+    display: flex;
+    width: 70%;
+    margin-top: 3%;
+}
+
+li{
+    list-style-type: none;
+    color: white;
+    font-size: 29px;
+    padding: 3%;
+    text-align: center;
+    font-family: "Mali", cursive;
+    font-weight: 600;
+}
+
+li a{
+    justify-content: space-between;
+    align-items: end;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.cta {
+    position: relative;
+    margin: auto;
+    padding: 12px 18px;
+    transition: all 0.2s ease;
+    border: none;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .cta:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 50px;
+    background: #000fdb;
+    width: 45px;
+    height: 45px;
+    transition: all 0.3s ease;
+  }
+  
+  .cta span {
+    position: relative;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: white;
+  }
+  
+  .cta svg {
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: white;
+    stroke-width: 2;
+    transform: translateX(-5px);
+    transition: all 0.3s ease;
+  }
+  
+  .cta:hover:before {
+    width: 100%;
+    background: #F1D302;
+  }
+  
+  .cta:hover svg {
+    transform: translateX(0);
+  }
+  
+  .cta:active {
+    transform: scale(0.95);
+  }
+
+.section{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.praia3{
+  width: 450px;
+  display: flex;
+
+}
+
+.praia2{
+  width: 300px;
+
+}
+
+  .praia1{
+    width: 450px;
+  }
+  
+  .praia{
+    display: flex;
+  }
