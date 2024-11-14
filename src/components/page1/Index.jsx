@@ -1,10 +1,13 @@
 import React from "react";
 import Style from "./Style.module.css";
 import Logo from "../img/logo turistando nova (1).png";
-import Praia1 from "../img/praia1.jpg"
-import Praia2 from "../img/praia2.jpg"
-import Praia3 from "../img/porto.jpg"
-
+import Image from "../img/sunset.png";
+import MediaCard from "../card/Index";
+import Praia1 from '../img/praia2.jpg'
+import Praia2 from '../img/porto_de_galinhas.jpg'
+import Praia3 from '../img/carneiros.jpg'
+import Praia4 from '../img/boaviagem.jpg'
+import Praia5 from '../img/pontaldemaracaipe.jpg'
 
 const Page1 = () => {
   return (
@@ -14,16 +17,19 @@ const Page1 = () => {
         <nav>
           <ul className={Style.list}>
             <li>
-              <a href="#">Home</a>
+              <a href="#">HOME</a>
             </li>
             <li>
-              <a href="#">Pontos turisticos</a>
+              <a href="#">ROTAS</a>
             </li>
             <li>
-              <a href="#">Galeria</a>
+              <a href="#">PRAIAS</a>
             </li>
             <li>
-              <a href="#">Contato</a>
+              <a href="#">GALERIA</a>
+            </li>
+            <li>
+              <a href="#">CONTATO</a>
             </li>
           </ul>
         </nav>
@@ -36,13 +42,17 @@ const Page1 = () => {
         </button>
       </header>
       <section>
-        <img className={Style.praia3} src={Praia3} alt="" />
-        <div className={Style.praia}>
-          <img className={Style.praia1} src={Praia1} alt="praia1" />
-          <img className={Style.Praia2} src={Praia2} alt="praia2" />
+        <div className={Style.section1}>
+          <img className={Style.ImageSection} src={Image} alt="imagem" />
         </div>
       </section>
-      
+      <div className={Style.card}>
+        <MediaCard image={Praia1} titlee="Fernando de Noronha" description="Fernando de Noronha é um arquipélago vulcânico situado a cerca de 350 quilómetros ao largo da costa nordeste do Brasil. "/>
+        <MediaCard image={Praia2} titlee="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
+        <MediaCard image={Praia3} titlee="Praia dos Carneiros" description="A Praia dos Carneiros, em Pernambuco, é reconhecida como uma das praias mais bonitas do Brasil e desperta o interesse de muitos viajantes por sua beleza natural. É o lugar perfeito para relaxar e curtir um cenário paradisíaco."/>
+        <MediaCard image={Praia4} titlee="Praia de Boa viagem" description="A Praia de Boa Viagem é a praia urbana mais famosa da cidade do Recife, capital do estado brasileiro de Pernambuco. Com aproximadamente oito quilômetros de extensão, está situada no bairro homônimo, Zona Sul da capital pernambucana, delimitada pela Praia do Pina ao norte e pela Praia de Piedade ao sul."/>
+        <MediaCard image={Praia5} titlee="Pontal de Maracaípe" description="Maracaípe é reconhecida como uma praia rica em reservas ambientais. A preservação do Mangue nessa praia sempre esteve no palco da discussão de ambientalistas e dos nativos."/>
+      </div>
     </>
   );
 };
