@@ -3,7 +3,7 @@
 
 body{
     margin: 0;
-    height: 2200px;
+
 }
 
 .logo{
@@ -14,7 +14,7 @@ body{
 
 .container{
     display: flex;
-    background-image: linear-gradient(to right,#FF721E, #E73220);
+    background-color: #020E33;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
     
 }
@@ -195,3 +195,4 @@ li a:hover{
   
 
   }
+

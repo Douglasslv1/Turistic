@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.Container {
+    background-color: antiquewhite;
+    margin-top: -5%;
+    font-family: "Poppins", sans-serif;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #032CA6;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    margin-top: 20%;
+    font-size: 20px;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    height: 190px;
+}
+
+.end {
+    background-color: #020E33;
+    color: white;
+    height: 50px;
+    text-align: center;
+    padding-top: 1%;
+}
+
+.btn {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #02B8E5;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+}

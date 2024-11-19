@@ -8,6 +8,10 @@ import Praia2 from '../img/porto_de_galinhas.jpg'
 import Praia3 from '../img/carneiros.jpg'
 import Praia4 from '../img/boaviagem.jpg'
 import Praia5 from '../img/pontaldemaracaipe.jpg'
+import Footer from "../footer/Index";
+import CardBeach from "../model-beach/Index";
+
+
 
 const Page1 = () => {
   return (
@@ -47,12 +51,13 @@ const Page1 = () => {
         </div>
       </section>
       <div className={Style.card}>
-        <MediaCard image={Praia1} titlee="Fernando de Noronha" description="Fernando de Noronha é um arquipélago vulcânico situado a cerca de 350 quilómetros ao largo da costa nordeste do Brasil. "/>
-        <MediaCard image={Praia2} titlee="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
-        <MediaCard image={Praia3} titlee="Praia dos Carneiros" description="A Praia dos Carneiros, em Pernambuco, é reconhecida como uma das praias mais bonitas do Brasil e desperta o interesse de muitos viajantes por sua beleza natural. É o lugar perfeito para relaxar e curtir um cenário paradisíaco."/>
-        <MediaCard image={Praia4} titlee="Praia de Boa viagem" description="A Praia de Boa Viagem é a praia urbana mais famosa da cidade do Recife, capital do estado brasileiro de Pernambuco. Com aproximadamente oito quilômetros de extensão, está situada no bairro homônimo, Zona Sul da capital pernambucana, delimitada pela Praia do Pina ao norte e pela Praia de Piedade ao sul."/>
-        <MediaCard image={Praia5} titlee="Pontal de Maracaípe" description="Maracaípe é reconhecida como uma praia rica em reservas ambientais. A preservação do Mangue nessa praia sempre esteve no palco da discussão de ambientalistas e dos nativos."/>
+        <CardBeach beatch={Praia1} BeatchTitle="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
+        <CardBeach beatch={Praia2} BeatchTitle="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
+        <CardBeach beatch={Praia3} BeatchTitle="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
+        <CardBeach beatch={Praia4} BeatchTitle="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
+        <CardBeach beatch={Praia5} BeatchTitle="Porto de Galinhas" description="Porto de Galinhas é uma praia localizada no distrito homônimo, pertencente ao município de Ipojuca, no estado de Pernambuco, Brasil."/>
       </div>
+      <Footer />
     </>
   );
 };
