@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 body{
     margin: 0;
-
 }
 
 .logo{
@@ -14,16 +15,14 @@ body{
 
 .container{
     display: flex;
-    background-color: #020E33;
+    background-color: #182259;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-    
 }
 
 .container nav{
     width: 60%;
     display: flex;
     justify-content:center;
-    
 }
 
 .list{
@@ -41,7 +40,6 @@ li{
     text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 200;
-    
 }
 
 li a{
@@ -69,7 +67,6 @@ li a:hover{
     border: none;
     background: none;
     cursor: pointer;
-    
   }
   
   .cta:before {
@@ -137,7 +134,6 @@ li a:hover{
   
   .praia{
     display: flex;
- 
   }
 
   .ImageSection{
@@ -155,12 +151,11 @@ li a:hover{
     margin-top: -10%;
     gap: 15px;
     overflow-x: auto;
-    padding: 5%; 
-    
+    padding: 1%; 
   }
 
   
-  @media(max-width: 600px){
+  @media(max-width: 700px){
     .container{
       display: flex;
       flex-direction: column;
@@ -193,6 +188,34 @@ li a:hover{
       
     }
   
-
+    .card{
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+    }
   }
 
+.Section{
+  margin-top: -10%;
+  height: 500px;
+  margin-left: 5%;
+  margin-right: 5%;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+
+.model{
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-size: 45px;
+  padding: 0%;
+}
+
+.secondModel{
+  display: flex;
+}
+
+.secondModel img{
+   border-top-left-radius: 40px;
+   border-bottom-right-radius: 40px;
+}

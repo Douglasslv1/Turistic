@@ -7,7 +7,7 @@ const CardBeach = (props) => {
         <img className={Style.BeatchImg} src={props.beatch} alt="PortoDeGalinhas" />
         <h1 className={Style.Tittle}>{props.BeatchTitle}</h1>
         <p className={Style.Description}>{props.description}</p>
-        <button>SAIBA MAIS</button>
+        <button className={Style.botao}>SAIBA MAIS</button>
     </div>
   )
 }
